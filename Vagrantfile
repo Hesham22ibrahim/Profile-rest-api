@@ -44,6 +44,6 @@ Vagrant.configure("2") do |config|
   SHELL
 
   # Specify a custom directory for Vagrant data
-   config.vm.synced_folder "F:\DjangoProject\profile-rest-api\vagrantVM", "/vagrant_data"
+  # config.vm.synced_folder "F:/DjangoProject/profile-rest-api/vagrantVM", "/vagrant_data"
 
  end
